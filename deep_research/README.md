@@ -37,6 +37,17 @@ Create a `.env` file with your configuration:
 ```
 [Add required environment variables]
 ```
+4. Create a SendGrid account at https://sendgrid.com/
+Generate an API key:
+Go to Settings >> API Keys >> Create API Key
+Copy the key
+Create a .env file in the project root with:
+SENDGRID_API_KEY=your_api_key_here
+Also, add OPENAI_API_KEY in env file
+Verify your sender email in SendGrid:
+Go to Settings >> Sender Authentication
+Click "Verify a Single Sender"
+Follow the verification process
 
 ## Usage
 
