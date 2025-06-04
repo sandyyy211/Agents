@@ -81,3 +81,7 @@ python deep_research.py
 - OpenAI API access
 - Internet connection for web searches
 - Email configuration for report delivery
+
+## using pipreqs
+pip install pipreqs
+pipreqs . --force
